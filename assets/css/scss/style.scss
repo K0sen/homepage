@@ -1,5 +1,5 @@
 html,body {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -8,10 +8,35 @@ html,body {
 }
 
 section {
+  margin: 20px 0;
+}
+
+.contacts {
+  &__list {
+    list-style: none;
+  }
+
+  &__item {
+    position: relative;
+    font-size: 22px;
+    margin-bottom: 10px;
+
+    .fa {
+      position: absolute;
+      font-size: 30px;
+      left: -35px;
+    }
+  }
+}
+
+.filmography li {
   margin: 15px 0;
 }
 
-.v-divider {
-  border-right: 1px solid gray;
+@media (min-width: 768px) {
+  .v-divider {
+    border-right: 1px solid gray;
+  }
 }
+
 
