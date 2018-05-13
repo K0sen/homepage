@@ -2,7 +2,7 @@
 var imageIndex = 0;
 
 // prefix for images
-var imageDest = '/assets/img/';
+var imageDest = 'assets/img/';
 
 function findQuote() {
   $.ajax({
@@ -51,7 +51,7 @@ function animation(data) {
 }
 
 $(document).ready(function() {
-  findQuote();
+  // findQuote();
   
   $('.quote__refresh button').click(findQuote);
 });
