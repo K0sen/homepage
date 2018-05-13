@@ -51,7 +51,7 @@ function animation(data) {
 }
 
 $(document).ready(function() {
-  // findQuote();
+  findQuote();
   
   $('.quote__refresh button').click(findQuote);
 });
