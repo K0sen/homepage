@@ -23,10 +23,10 @@ function findQuote() {
 
 function getBackground() {
   var images = [
-    'james-1.png',
-    'james-2.png',
-    'james-3.png',
-    'james-4.png',
+    'jason-1.png',
+    'jason-2.png',
+    'jason-3.png',
+    'jason-4.png',
   ];
 
   if (imageIndex > images.length - 1) {
