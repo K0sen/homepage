@@ -37,9 +37,10 @@ function getBackground() {
 }
 
 function animation(data) {
-  quote = data[0].quote;
-  author = data[0].author;
-  background = getBackground();
+  var quote = data[0].quote;
+  var author = data[0].author;
+  var background = getBackground();
+  
   $('.quoter').animate({opacity: 0}, 400, function() {
       $('.quote__text').text(quote);
       $('.quote__author--fake').text('(' + author + ')');
