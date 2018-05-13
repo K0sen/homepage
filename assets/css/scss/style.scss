@@ -46,11 +46,16 @@ section {
   }
 }
 
-.filmography li {
-  margin: 15px 0;
+.filmography {
 
   &__list {
+    font-style: italic;
     list-style-type: upper-roman;
+  }
+
+  &__item {
+    font-weight: bold;
+    margin: 15px 0;
   }
 }
 
