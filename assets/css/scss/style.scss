@@ -12,25 +12,46 @@ section {
 }
 
 .contacts {
+
   &__list {
     list-style: none;
   }
 
+  &__link {
+    color: black;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
   &__item {
     position: relative;
-    font-size: 22px;
+    font-size: 18px;
     margin-bottom: 10px;
 
     .fa {
       position: absolute;
-      font-size: 30px;
+      font-size: 25px;
+      color: gold;
       left: -35px;
     }
   }
 }
 
+.career {
+
+  &__list {
+    list-style-type: circle;
+  }
+}
+
 .filmography li {
   margin: 15px 0;
+
+  &__list {
+    list-style-type: upper-roman;
+  }
 }
 
 @media (min-width: 768px) {
